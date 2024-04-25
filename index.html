@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>The Wine</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        <script src="menu.js"></script>
+
+</head>
+
+<body>
+    <header class="main-header">
+        
+        <a href="index.html"> <img class="logo" src="The Wine1.png"></a>
+
+        <button class="nav-button" type="button">
+            <i class="fa-solid fa-bars"></i> 
+        </button>
+        
+        <form id="search-form">
+            <input type="text" name="search-keywords" id="search">
+            <button type="submit">
+                <i class="fa-solid fa-magnifying-glass" style="color: white;"></i>
+            </button>
+        </form>
+
+       
+        
+        <nav class="navigation">
+
+        <div class="subnav">
+            <button class="subnavbtn">Wines <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+                <a href="red.html">Red</a>
+                <a href="white.html">White</a>
+                <a href="rose.html">Rosé</a>
+                <a href="sparkling.html">Sparkling</a>
+            </div></div>
+
+            <div class="subnav">
+
+                <button class="subnavbtn">Services <i class="fa fa-caret-down"></i></button>
+                <div class="subnav-content">
+                    <a href="events.html">Events</a>
+                </div></div>
+
+            <div class="subnav">
+                    <button class="subnavbtn">About Us <i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                        <a href="aboutus.html">History</a>
+                        <a href="mission.html">Mission</a>
+                        <a href="career.html">Career</a>
+                        </div></div>
+
+        <div class="subnav">
+
+            <button class="subnavbtn">Contact Us <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+                <a href="findourstore.html">Find Our Store</a>
+                <a href="contactus.html">Contact Us</a>
+                </div></div>
+
+    </nav>
+    </header>
+
+
+    <div class="front-carousel" data-flickity='{ "autoPlay": 3000 }'>
+        <div class="cell">Leave us make part of your story</div>
+        <div class="cell">Choose the best to share your moments</div>
+        <div class="cell">Each moment is important for us</div>
+        <div class="cell">We do it for you</div>
+        <div class="cell">Cheers!</div>
+    </div>
+    <main class="content">
+        <h1>What is your favorite story?</h1>
+        <p>
+            Discover an exquisite collection of wines from around the world, carefully curated to delight every palate.
+            Explore our digital cellar, where each bottle tells a story of passion, tradition, and unparalleled
+            craftsmanship. Join us in celebrating the art of winemaking and indulge in the timeless pleasure of
+            exceptional wine. Cheers to extraordinary moments with "The Wine."
+        </p>
+        <div class="card-grid">
+            <div class="card">
+                <img src="brett-jordan-x930eslnS9Y-unsplash.jpg" class="card-image">
+                <h3>Red Wine</h3>
+                <p>
+                    Red wine is made from dark-colored grape varieties and typically has a rich, bold flavor profile. It can range from light and fruity to full-bodied and complex, depending on factors such as grape variety, region, and aging process. Red wines pair well with hearty dishes like red meat, pasta, and aged cheeses.
+                </p>
+                <button type="button" class="card-button">Add to cart</button>
+            </div>
+            <div class="card">
+                <img src="vidar-nordli-mathisen-Hg5evLkDDgE-unsplash.jpg" class="card-image">
+                <h3>White Wine</h3>
+                <p>
+                    White wine is produced from green or yellowish grapes, and its flavor profile is characterized by its crisp acidity and often fruity or floral aromas. White wines can be dry, sweet, or somewhere in between, offering versatility for various palates and occasions. They pair well with seafood, poultry, salads, and light pasta dishes.
+                </p>
+                <button type="button" class="card-button">Add to cart</button>
+            </div>
+            <div class="card">
+                <img src="alexandra-torro-9vP0GsQJ1F4-unsplash.jpg" class="card-image">
+                <h3>Rosé Wine</h3>
+                <p>
+                    Rosé wine, is made from red grape varieties but with a shorter skin contact time during the winemaking process, resulting in its distinct pink hue. Rosé wines typically offer a refreshing and fruity flavor profile, with notes of berries and citrus. They are versatile and can be enjoyed as an aperitif or paired with a wide range of foods, including salads, grilled vegetables, and seafood.
+                </p>
+                <button type="button" class="card-button">Add to cart</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="copyright">&copy; Thalia 2024</p>
+    </footer>
+</body>
+
+</html>
